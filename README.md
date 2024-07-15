@@ -100,6 +100,77 @@ php artisan serve
 # ERD Database
 ![Screenshot Aplikasi](images/9.PNG)
 
+# Database Schema
+
+Diagram ini menggambarkan skema basis data yang terdiri dari beberapa tabel dengan relasi antar tabel. Berikut adalah penjelasan masing-masing tabel dan kolom yang ada.
+
+## Tabel `users`
+Tabel ini menyimpan informasi pengguna.
+- **id**: Integer, primary key, auto-increment.
+- **name**: String, nama pengguna.
+- **email**: String, alamat email pengguna.
+- **email_verified_at**: Timestamp, waktu verifikasi email.
+- **password**: String, kata sandi pengguna.
+- **remember_token**: String, token untuk remember me.
+- **created_at**: Timestamp, waktu pembuatan data.
+- **updated_at**: Timestamp, waktu update terakhir.
+
+## Tabel `roles`
+Tabel ini menyimpan informasi peran pengguna.
+- **id**: Integer, primary key, auto-increment.
+- **name**: String, nama peran.
+- **created_at**: Timestamp, waktu pembuatan data.
+- **updated_at**: Timestamp, waktu update terakhir.
+
+## Tabel `user_role`
+Tabel ini menghubungkan pengguna dengan peran mereka.
+- **id**: Integer, primary key, auto-increment.
+- **user_id**: Integer, foreign key ke tabel `users`.
+- **role_id**: Integer, foreign key ke tabel `roles`.
+- **created_at**: Timestamp, waktu pembuatan data.
+- **updated_at**: Timestamp, waktu update terakhir.
+
+## Tabel `migrations`
+Tabel ini menyimpan informasi migrasi basis data.
+- **id**: Integer, primary key, auto-increment.
+- **migration**: String, nama migrasi.
+- **batch**: Integer, nomor batch migrasi.
+
+## Tabel `password_reset_tokens`
+Tabel ini menyimpan token reset password.
+- **email**: String, alamat email pengguna.
+- **token**: String, token reset password.
+- **created_at**: Timestamp, waktu pembuatan token.
+
+## Tabel `password_resets`
+Tabel ini menyimpan reset password.
+- **email**: String, alamat email pengguna.
+- **token**: String, token reset password.
+- **created_at**: Timestamp, waktu pembuatan token.
+
+## Tabel `failed_jobs`
+Tabel ini menyimpan informasi pekerjaan yang gagal.
+- **id**: Integer, primary key, auto-increment.
+- **uuid**: String, UUID pekerjaan.
+- **connection**: String, koneksi yang digunakan.
+- **queue**: String, antrian pekerjaan.
+- **payload**: Text, payload pekerjaan.
+- **exception**: Text, pengecualian yang terjadi.
+- **failed_at**: Timestamp, waktu kegagalan pekerjaan.
+
+## Tabel `personal_access_tokens`
+Tabel ini menyimpan token akses personal.
+- **id**: Integer, primary key, auto-increment.
+- **tokenable_type**: String, tipe entitas yang dapat di-token.
+- **tokenable_id**: Integer, ID entitas yang dapat di-token.
+- **name**: String, nama token.
+- **token**: String, token akses.
+- **abilities**: Text, kemampuan token.
+- **last_used_at**: Timestamp, waktu terakhir penggunaan.
+- **expires_at**: Timestamp, waktu kedaluwarsa token.
+- **created_at**: Timestamp, waktu pembuatan token.
+- **updated_at**: Timestamp, waktu update terakhir.
+
 
 
 # tampilan aplikasi
