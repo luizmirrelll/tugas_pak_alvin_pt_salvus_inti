@@ -14,21 +14,6 @@ Ini adalah aplikasi Laravel dengan peran admin dan kasir. Admin dapat mengelola 
 ```bash
 php artisan serve
 ```
-# tampilan aplikasi
-## login
-![Screenshot Aplikasi](images/1.PNG)
-
-## ADMIN
-![Screenshot Aplikasi](images/2.PNG)
-![Screenshot Aplikasi](images/3.PNG)
-![Screenshot Aplikasi](images/4.PNG)
-![Screenshot Aplikasi](images/5.PNG)
-![Screenshot Aplikasi](images/6.PNG)
-
-## KASIR
-![Screenshot Aplikasi](images/7.PNG)
-![Screenshot Aplikasi](images/8.PNG)
-
 
 
 # Mengakses Aplikasi
@@ -105,3 +90,20 @@ php artisan ui vue --auth
 npm install && npm run dev
 php artisan migrasi
 ```
+
+
+# tampilan aplikasi
+## login
+![Screenshot Aplikasi](images/1.PNG)
+
+## ADMIN
+![Screenshot Aplikasi](images/2.PNG)
+![Screenshot Aplikasi](images/3.PNG)
+![Screenshot Aplikasi](images/4.PNG)
+![Screenshot Aplikasi](images/5.PNG)
+![Screenshot Aplikasi](images/6.PNG)
+
+## KASIR
+![Screenshot Aplikasi](images/7.PNG)
+![Screenshot Aplikasi](images/8.PNG)
+
