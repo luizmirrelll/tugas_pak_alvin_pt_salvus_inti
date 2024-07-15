@@ -10,11 +10,7 @@ Ini adalah aplikasi Laravel dengan peran admin dan kasir. Admin dapat mengelola 
 - Node.js dan npm
 - Database server (for example, MySQL)
 
-# Menjalankan Server Laravel
-```bash
-php artisan migrate --seed
-php artisan serve
-```
+
 
 
 # Mengakses Aplikasi
@@ -37,26 +33,17 @@ Kata sandi: kata sandi
 
 ## Instalasi
 
-### 1. Mengkloning Proyek
+### Mengkloning Proyek
 
 ``` bash
 git clone <repository-url>
 cd <project-folder>
 ```
-
 # Menginstal Ketergantungan
 ```bash
 composer install
 npm install
 ```
-
-# Mengkonfigurasi Lingkungan
-## Salin berkas .env.example ke .env:
-
-``` bash
-cp .env.example .env
-```
-
 ## Perbarui berkas .env dengan konfigurasi basis data Anda
 ```bash
 DB_CONNECTION = mysql
@@ -66,17 +53,20 @@ DB_DATABASE = basis data Anda
 DB_USERNAME = nama_pengguna Anda
 DB_PASSWORD = kata sandi Anda
 ```
+# Mengkonfigurasi Lingkungan
+## Salin berkas .env.example ke .env:
 
+``` bash
+cp .env.example .env
+```
+# Menjalankan Server Laravel
+```bash
+php artisan migrate --seed
+php artisan serve
+```
 # Menghasilkan Kunci Aplikasi
 ``` bash
 php generate key:generate
-```
-
-# Menjalankan Migrasi dan Penyemai
-```bash
-php artisan migrasi
-php artisan db:seed --class=RoleSeeder
-php artisan db:seed --class=UserSeeder
 ```
 
 # Menyiapkan Otentikasi
