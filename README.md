@@ -57,18 +57,18 @@ password: password
 
 ## Instalasi
 
-### Mengkloning Proyek
+- Mengkloning Proyek
 
 ``` bash
 git clone <repository-url>
 cd <project-folder>
 ```
-## Menginstal Ketergantungan
+- Menginstal Ketergantungan
 ```bash
 composer install
 npm install
 ```
-## Perbarui berkas .env dengan konfigurasi basis data Anda
+- Perbarui berkas .env dengan konfigurasi basis data Anda
 ```bash
 DB_CONNECTION = mysql
 DB_HOST = 127.0.0.1
@@ -78,28 +78,28 @@ DB_USERNAME = root
 DB_PASSWORD = 
 ```
 ## Mengkonfigurasi Lingkungan
-## Salin berkas .env.example ke .env:
+- Salin berkas .env.example ke .env:
 
 ``` bash
 cp .env.example .env
 ```
-# Menjalankan Server Laravel
+- Menjalankan Server Laravel
 ```bash
 php artisan migrate --seed
 php artisan serve
 ```
-# Menghasilkan Kunci Aplikasi
+- Menghasilkan Kunci Aplikasi
 ``` bash
 php generate key:generate
 ```
 
 # Menyiapkan Otentikasi
-## Menginstal Laravel UI:
+- Menginstal Laravel UI:
 ``` bash
 composer require laravel/ui
 ```
 
-## Buat perancah untuk autentikasi:
+- Buat perancah untuk autentikasi:
 ```bash
 php artisan ui vue --auth
 npm install && npm run dev
