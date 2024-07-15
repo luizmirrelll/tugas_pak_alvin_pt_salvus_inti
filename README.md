@@ -22,12 +22,12 @@ http://127.0.0.1:8000
 ## Login sebagai Admin
 ```bash
 Email: admin@example.com
-Kata sandi: kata sandi
+password: password
 ```
 ## Login sebagai Kasir
 ```bash
-Email: admin@example.com
-Kata sandi: kata sandi
+Email: kasir@example.com
+password: password
 ```
 
 
