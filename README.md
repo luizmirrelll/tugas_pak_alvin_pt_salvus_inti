@@ -91,6 +91,10 @@ npm install && npm run dev
 php artisan migrasi
 ```
 
+# ERD Database
+![Screenshot Aplikasi](images/9.PNG)
+
+
 
 # tampilan aplikasi
 ## login
