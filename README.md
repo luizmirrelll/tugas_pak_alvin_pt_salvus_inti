@@ -79,7 +79,7 @@ composer require laravel/ui
 ```bash
 php artisan ui vue --auth
 npm install && npm run dev
-php artisan migrasi
+php artisan serve
 ```
 
 # ERD Database
