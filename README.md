@@ -8,11 +8,11 @@ Ini adalah aplikasi Laravel dengan peran admin dan kasir. Admin dapat mengelola 
 - PHP
 - Komposer
 - Node.js dan npm
-- Server basis data (misalnya, MySQL)
+- Database server (for example, MySQL)
 
 # Menjalankan Server Laravel
 ```bash
-Menjalankan server Laravel
+php artisan serve
 ```
 # tampilan aplikasi
 ## login
@@ -54,7 +54,7 @@ Kata sandi: kata sandi
 ### 1. Mengkloning Proyek
 
 ``` bash
-git mengkloning <repository-url>
+git clone <repository-url>
 cd <project-folder>
 ```
 
@@ -83,7 +83,7 @@ DB_PASSWORD = kata sandi Anda
 
 # Menghasilkan Kunci Aplikasi
 ``` bash
-php kunci pengrajin:generate
+php generate key:generate
 ```
 
 # Menjalankan Migrasi dan Penyemai
