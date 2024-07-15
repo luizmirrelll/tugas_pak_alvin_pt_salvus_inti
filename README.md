@@ -40,6 +40,8 @@ Ini adalah aplikasi Laravel dengan peran admin dan kasir. Admin dapat mengelola 
 - Node.js dan npm
 - Database server (for example, MySQL)
 
+[Back To Daftar Isi](#daftar-isi)
+
 ## aplikasi ini memiliki dua peran utama
 ```bash
 1. Admin:
@@ -53,6 +55,8 @@ Ini adalah aplikasi Laravel dengan peran admin dan kasir. Admin dapat mengelola 
    - Kasir tidak dapat mengubah data dirinya atau data kasir lainnya.
 ```
 
+[Back To Daftar Isi](#daftar-isi)
+
 
 ## Alur proses bisnis aplikasi secara umum adalah sebagai berikut
 ``` bash
@@ -62,6 +66,8 @@ Ini adalah aplikasi Laravel dengan peran admin dan kasir. Admin dapat mengelola 
 4. Kasir dapat melihat riwayat transaksi yang telah dilakukan.
 5. Admin dapat mengawasi dan memantau kinerja kasir melalui data transaksi yang tercatat.
 ```
+
+[Back To Daftar Isi](#daftar-isi)
 
 
 ## Mengakses Aplikasi
@@ -80,6 +86,8 @@ password: password
 Email: kasir@example.com
 password: password
 ```
+
+[Back To Daftar Isi](#daftar-isi)
 
 
 ## Instalasi
@@ -104,6 +112,9 @@ DB_DATABASE = admin
 DB_USERNAME = root
 DB_PASSWORD = 
 ```
+
+[Back To Daftar Isi](#daftar-isi)
+
 ## Mengkonfigurasi Lingkungan
 - Salin berkas .env.example ke .env:
 
@@ -133,8 +144,13 @@ npm install && npm run dev
 php artisan serve
 ```
 
+[Back To Daftar Isi](#daftar-isi)
+
+
 # ERD Database
 ![Screenshot Aplikasi](images/9.PNG)
+
+[Back To Daftar Isi](#daftar-isi)
 
 # Database Schema
 
@@ -151,12 +167,16 @@ Tabel ini menyimpan informasi pengguna.
 - **created_at**: Timestamp, waktu pembuatan data.
 - **updated_at**: Timestamp, waktu update terakhir.
 
+[Back To Daftar Isi](#daftar-isi)
+
 ## Tabel `roles`
 Tabel ini menyimpan informasi peran pengguna.
 - **id**: Integer, primary key, auto-increment.
 - **name**: String, nama peran.
 - **created_at**: Timestamp, waktu pembuatan data.
 - **updated_at**: Timestamp, waktu update terakhir.
+
+[Back To Daftar Isi](#daftar-isi)
 
 ## Tabel `user_role`
 Tabel ini menghubungkan pengguna dengan peran mereka.
@@ -166,11 +186,15 @@ Tabel ini menghubungkan pengguna dengan peran mereka.
 - **created_at**: Timestamp, waktu pembuatan data.
 - **updated_at**: Timestamp, waktu update terakhir.
 
+[Back To Daftar Isi](#daftar-isi)
+
 ## Tabel `migrations`
 Tabel ini menyimpan informasi migrasi basis data.
 - **id**: Integer, primary key, auto-increment.
 - **migration**: String, nama migrasi.
 - **batch**: Integer, nomor batch migrasi.
+
+[Back To Daftar Isi](#daftar-isi)
 
 ## Tabel `password_reset_tokens`
 Tabel ini menyimpan token reset password.
@@ -178,11 +202,15 @@ Tabel ini menyimpan token reset password.
 - **token**: String, token reset password.
 - **created_at**: Timestamp, waktu pembuatan token.
 
+[Back To Daftar Isi](#daftar-isi)
+
 ## Tabel `password_resets`
 Tabel ini menyimpan reset password.
 - **email**: String, alamat email pengguna.
 - **token**: String, token reset password.
 - **created_at**: Timestamp, waktu pembuatan token.
+
+[Back To Daftar Isi](#daftar-isi)
 
 ## Tabel `failed_jobs`
 Tabel ini menyimpan informasi pekerjaan yang gagal.
@@ -193,6 +221,8 @@ Tabel ini menyimpan informasi pekerjaan yang gagal.
 - **payload**: Text, payload pekerjaan.
 - **exception**: Text, pengecualian yang terjadi.
 - **failed_at**: Timestamp, waktu kegagalan pekerjaan.
+
+[Back To Daftar Isi](#daftar-isi)
 
 ## Tabel `personal_access_tokens`
 Tabel ini menyimpan token akses personal.
@@ -207,11 +237,15 @@ Tabel ini menyimpan token akses personal.
 - **created_at**: Timestamp, waktu pembuatan token.
 - **updated_at**: Timestamp, waktu update terakhir.
 
+[Back To Daftar Isi](#daftar-isi)
+
 
 
 # tampilan aplikasi
 ## login
 ![Screenshot Aplikasi](images/1.PNG)
+
+[Back To Daftar Isi](#daftar-isi)
 
 ## ADMIN
 ![Screenshot Aplikasi](images/2.PNG)
@@ -220,7 +254,11 @@ Tabel ini menyimpan token akses personal.
 ![Screenshot Aplikasi](images/5.PNG)
 ![Screenshot Aplikasi](images/6.PNG)
 
+[Back To Daftar Isi](#daftar-isi)
+
 ## KASIR
 ![Screenshot Aplikasi](images/7.PNG)
 ![Screenshot Aplikasi](images/8.PNG)
+
+[Back To Daftar Isi](#daftar-isi)
 
