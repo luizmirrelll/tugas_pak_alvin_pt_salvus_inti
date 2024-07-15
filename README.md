@@ -12,6 +12,7 @@ Ini adalah aplikasi Laravel dengan peran admin dan kasir. Admin dapat mengelola 
 
 # Menjalankan Server Laravel
 ```bash
+php artisan migrate --seed
 php artisan serve
 ```
 
