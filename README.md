@@ -3,6 +3,13 @@
 
 Ini adalah aplikasi Laravel dengan peran admin dan kasir. Admin dapat mengelola kasir dan memberikan hak akses.
 
+# DAFTAR ISI
+1. [Prasyarat](#prasyarat)
+2. [Mengakses Aplikasi](#Mengakses_Aplikasi)
+3. [Instalasi](#Instalasi)
+4. [Mengkonfigurasi Lingkungan](#Mengkonfigurasi_Lingkungan)
+
+
 ## Prasyarat
 
 - PHP
@@ -13,7 +20,7 @@ Ini adalah aplikasi Laravel dengan peran admin dan kasir. Admin dapat mengelola 
 
 
 
-# Mengakses Aplikasi
+## Mengakses Aplikasi
 ```bash
 http://127.0.0.1:8000
 ```
@@ -39,7 +46,7 @@ password: password
 git clone <repository-url>
 cd <project-folder>
 ```
-# Menginstal Ketergantungan
+## Menginstal Ketergantungan
 ```bash
 composer install
 npm install
@@ -53,7 +60,7 @@ DB_DATABASE = basis data Anda
 DB_USERNAME = nama_pengguna Anda
 DB_PASSWORD = kata sandi Anda
 ```
-# Mengkonfigurasi Lingkungan
+## Mengkonfigurasi Lingkungan
 ## Salin berkas .env.example ke .env:
 
 ``` bash
