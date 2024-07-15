@@ -32,6 +32,10 @@ Ini adalah aplikasi Laravel dengan peran admin dan kasir. Admin dapat mengelola 
 ## Prasyarat
 
 - PHP
+- laravel
+- CSS
+- HTML
+- Js
 - Komposer
 - Node.js dan npm
 - Database server (for example, MySQL)
