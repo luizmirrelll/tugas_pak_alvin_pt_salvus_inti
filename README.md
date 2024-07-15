@@ -3,11 +3,19 @@
 
 Ini adalah aplikasi Laravel dengan peran admin dan kasir. Admin dapat mengelola kasir dan memberikan hak akses.
 
-# DAFTAR ISI
+## DAFTAR ISI
 1. [Prasyarat](#prasyarat)
-2. [Mengakses Aplikasi](#Mengakses_Aplikasi)
-3. [Instalasi](#Instalasi)
-4. [Mengkonfigurasi Lingkungan](#Mengkonfigurasi_Lingkungan)
+2. [Mengakses Aplikasi](#mengakses-aplikasi)
+3. [Instalasi](#instalasi)
+4. [Mengkonfigurasi Lingkungan](#mengkonfigurasi-lingkungan)
+5. [Login dan Pengujian](#login-dan-pengujian)
+   - [Login sebagai Admin](#login-sebagai-admin)
+   - [Login sebagai Kasir](#login-sebagai-kasir)
+6. [ERD Database](#erd-database)
+7. [Tampilan Aplikasi](#tampilan-aplikasi)
+   - [Login](#login)
+   - [ADMIN](#admin)
+   - [KASIR](#kasir)
 
 
 ## Prasyarat
