@@ -5,14 +5,16 @@ Ini adalah aplikasi Laravel dengan peran admin dan kasir. Admin dapat mengelola 
 
 ## DAFTAR ISI
 1. [Prasyarat](#prasyarat)
-2. [Mengakses Aplikasi](#mengakses-aplikasi)
-3. [Instalasi](#instalasi)
-4. [Mengkonfigurasi Lingkungan](#mengkonfigurasi-lingkungan)
-5. [Login dan Pengujian](#login-dan-pengujian)
+2. [peran User](#aplikasi-ini-memiliki-dua-peran-utama) 
+3. [proses bisnis](#Alur-proses-bisnis-aplikasi-secara-umum-adalah-sebagai-berikut) 
+4. [Mengakses Aplikasi](#mengakses-aplikasi)
+5. [Instalasi](#instalasi)
+6. [Mengkonfigurasi Lingkungan](#mengkonfigurasi-lingkungan)
+7. [Login dan Pengujian](#login-dan-pengujian)
    - [Login sebagai Admin](#login-sebagai-admin)
    - [Login sebagai Kasir](#login-sebagai-kasir)
-6. [ERD Database](#erd-database)
-7. [Database Schema](#database-schema)
+8. [ERD Database](#erd-database)
+9. [Database Schema](#database-schema)
    - [Tabel `users`](#tabel-users)
    - [Tabel `roles`](#tabel-roles)
    - [Tabel `user_role`](#tabel-user_role)
@@ -34,7 +36,28 @@ Ini adalah aplikasi Laravel dengan peran admin dan kasir. Admin dapat mengelola 
 - Node.js dan npm
 - Database server (for example, MySQL)
 
+## aplikasi ini memiliki dua peran utama
+```bash
+1. Admin:
+   - Admin dapat mengelola kasir dan memberikan hak akses.
+   - Admin dapat melakukan CRUD (Create, Read, Update, Delete) terhadap data kasir.
+   - Admin dapat mengatur dan mengawasi kinerja kasir.
 
+2. Kasir:
+   - Kasir dapat melakukan transaksi penjualan.
+   - Kasir dapat melihat riwayat transaksi yang telah dilakukan.
+   - Kasir tidak dapat mengubah data dirinya atau data kasir lainnya.
+```
+
+
+## Alur proses bisnis aplikasi secara umum adalah sebagai berikut
+``` bash
+1. Admin mengelola data kasir, termasuk menambah, mengubah, atau menghapus data kasir.
+2. Admin dapat memberikan hak akses kepada kasir sehingga kasir dapat melakukan transaksi penjualan.
+3. Kasir dapat melakukan transaksi penjualan sesuai dengan hak akses yang diberikan oleh admin.
+4. Kasir dapat melihat riwayat transaksi yang telah dilakukan.
+5. Admin dapat mengawasi dan memantau kinerja kasir melalui data transaksi yang tercatat.
+```
 
 
 ## Mengakses Aplikasi
