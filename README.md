@@ -19,15 +19,16 @@ Menjalankan server Laravel
 ![Screenshot Aplikasi](images/1.png)
 
 ## ADMIN
-![Screenshot Aplikasi](./images/2.png)
-![Screenshot Aplikasi](./images/3.png)
-![Screenshot Aplikasi](./images/4.png)
-![Screenshot Aplikasi](./images/5.png)
-![Screenshot Aplikasi](./images/6.png)
+![Screenshot Aplikasi](images/2.png)
+![Screenshot Aplikasi](images/3.png)
+![Screenshot Aplikasi](images/4.png)
+![Screenshot Aplikasi](images/5.png)
+![Screenshot Aplikasi](images/6.png)
 
 ## KASIR
-![Screenshot Aplikasi](./images/7.png)
-![Screenshot Aplikasi](./images/8.png)
+![Screenshot Aplikasi](images/7.png)
+![Screenshot Aplikasi](images/8.png)
+
 
 
 # Mengakses Aplikasi
