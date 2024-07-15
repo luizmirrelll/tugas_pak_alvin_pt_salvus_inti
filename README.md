@@ -65,9 +65,9 @@ npm install
 DB_CONNECTION = mysql
 DB_HOST = 127.0.0.1
 DB_PORT=3306
-DB_DATABASE = basis data Anda
-DB_USERNAME = nama_pengguna Anda
-DB_PASSWORD = kata sandi Anda
+DB_DATABASE = admin
+DB_USERNAME = root
+DB_PASSWORD = 
 ```
 ## Mengkonfigurasi Lingkungan
 ## Salin berkas .env.example ke .env:
