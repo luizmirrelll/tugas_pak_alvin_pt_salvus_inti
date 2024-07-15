@@ -16,7 +16,7 @@ Menjalankan server Laravel
 ```
 # tampilan aplikasi
 ## login
-![Screenshot Aplikasi](./images/1.png)
+![Screenshot Aplikasi](images/1.png)
 
 ## ADMIN
 ![Screenshot Aplikasi](./images/2.png)
